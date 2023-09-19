@@ -2,6 +2,7 @@
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
+    // sort stories in alphabetical order
     options: {
       storySort: (a, b) =>
         a.id === b.id
